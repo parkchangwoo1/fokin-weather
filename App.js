@@ -25,7 +25,6 @@ export default class extends React.Component {
       temp,
     });
   };
-
   getLocation = async () => {
     try {
       await Location.requestForegroundPermissionsAsync();
